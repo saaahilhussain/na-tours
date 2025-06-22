@@ -20,13 +20,12 @@
       $color-primary-dark
     );
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
 
     @include respond(tab-port) {
       margin-bottom: 0;
     }
-  }
-  &__text {
   }
   &:hover {
     transform: translateY(-1rem) scale(1.05);
